@@ -8,7 +8,7 @@ Antes de instalar Ansible, actualizaos los repositorios de paquetes. Ejecuta el 
 sudo apt update
 ```
 
-## Paso 2: Instalar `software-properties-common`
+## Paso 2: Instalar software-properties-common
 
 Este paquete es necesario para gestionar los repositorios de software. Puedes instalarlo con el siguiente comando:
 
