@@ -4,10 +4,10 @@ Este repositorio contiene documentación y ejemplos para la instalación y confi
 
 ## Índice
 - [Requisitos previos](#requisitos-previos)
-- [Instalación](#instalación)
-  - [Instalación en Ubuntu](docs/install/ubuntu.md)
-  - [Instalación en CentOS](docs/install/centos.md)
-  - [Instalación en Debian](docs/install/debian.md)
+- [Instalar Ansible](#instalar-ansible)
+  - [Instalar Ansible con PIP](docs/install/pip.md)
+  - [Instalar Ansible en Ubuntu](docs/install/ubuntu.md)
+  - [Instalar Ansible en Fedora](docs/install/fedora.md)
 - [Solución de Problemas](docs/troubleshooting.md)
 - [Ejemplos](examples/)
 
@@ -15,7 +15,7 @@ Este repositorio contiene documentación y ejemplos para la instalación y confi
 
 ### Control Nodes:
 El **Control Node** es la máquina donde se ejecuta Ansible. Debe cumplir con los siguientes requisitos:
-- **Servidor Linux**: Preferiblemente Ubuntu, CentOS o Debian.
+- **Servidor Linux**: Preferiblemente Ubuntu, CentOS, Fedora o Debian.
 - **WSL (Windows Subsystem for Linux)**: Si prefieres usar un servidor con Windows, deberás tener instalado **WSL** para ejecutar comandos Linux.
 - **Python 3.8 o superior**: Ansible requiere al menos Python 3.8 para funcionar.
 - **PIP instalado**: PIP es el gestor de paquetes de Python que te permitirá instalar Ansible.
@@ -32,13 +32,13 @@ Existen varias opciones para instalar Ansible, dependiendo de tus necesidades:
 - **Ansible-core**: La distribución mínima que incluye las funcionalidades básicas de Ansible.
 - **Distribución completa**: Incluye un conjunto de módulos, plugins, playbooks, y otras herramientas adicionales.
 
-## Instalación
+## Instalar Ansible
 
-Para guías específicas de instalación en tu distribución favorita de Linux, consulta la documentación en la carpeta [docs/install](docs/install/).
+Para guías específicas de instalación en diferentes entornos, consulta los siguientes enlaces:
 
-- **Ubuntu:** [Guía de instalación en Ubuntu](docs/install/ubuntu.md)
-- **CentOS:** [Guía de instalación en CentOS](docs/install/centos.md)
-- **Debian:** [Guía de instalación en Debian](docs/install/debian.md)
+- **[Instalar Ansible con PIP](docs/install/pip.md)**
+- **[Instalar Ansible en Ubuntu](docs/install/ubuntu.md)**
+- **[Instalar Ansible en Fedora](docs/install/fedora.md)**
 
 ## Solución de Problemas
 Si encuentras problemas durante la instalación, consulta la sección de [Solución de Problemas](docs/troubleshooting.md).
